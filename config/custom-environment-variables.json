@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "JWT_AUTH_TOKEN",
+    "mongoUri" : "MONGO_URI"
+}

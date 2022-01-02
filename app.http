@@ -1,0 +1,24 @@
+# POST http://localhost:5000/api/users
+# Content-Type: application/json
+
+# {
+#     "name": "Rajan K.",
+#     "email": "rajankarmakar2@gmail.com",
+#     "password": "12345"
+# }
+###
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+    "email": "rajan2@gmail.com",
+    "password": "12345"
+}
+###
+POST http://localhost:5000/api/categories
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWNkYmYyMmExN2QxNWEzODg3NmZjNjIiLCJuYW1lIjoiUmFqYW4gMksuIiwiZW1haWwiOiJyYWphbjJAZ21haWwuY29tIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTY0MDg3NjkxOX0.3cNk2ONuPemJLxK04rau8tQEzO26DFJ7QGscVejlF8Y
+
+{
+    "name": "Triller"
+}
